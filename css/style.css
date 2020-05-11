@@ -1,12 +1,12 @@
 #siBtn {
   position: absolute;
   top: 20vh;
-  left: 10vw;
+  left: 15vw;
 }
 #noBtn {
   position: absolute;
   top: 20vh;
-  right: 10vw;
+  right: 15vw;
 }
 body {
   text-align: center;

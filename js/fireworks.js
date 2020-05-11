@@ -1,5 +1,5 @@
 var SCREEN_WIDTH = window.innerWidth,
-    SCREEN_HEIGHT = window.innerHeight,
+    SCREEN_HEIGHT = window.innerHeight-150,
     mousePos = {
         x: 400,
         y: 300
@@ -73,7 +73,7 @@ function loop() {
         canvas.width = SCREEN_WIDTH = window.innerWidth;
     }
     if (SCREEN_HEIGHT != window.innerHeight) {
-        canvas.height = SCREEN_HEIGHT = window.innerHeight;
+        canvas.height = SCREEN_HEIGHT = window.innerHeight-150;
     }
 
     // clear canvas
