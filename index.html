@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="theme-color" content="#1E1E1E" />
+    <link rel="stylesheet" href="style.css">
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="fireworks.js"></script>
+    <title>Yo se que si</title>
+
+</head>
+
+<body>
+    <div style="padding-top: 50px;">
+        <h1>¿Quieres ser mi novia?</h1>
+        <a id="siBtn" class="btn">Si</a>
+        <a id="noBtn" class="btn" onmouseover="Over()">No</a>
+    </div>
+
+
+    <script>
+        let n = 0;
+        function Over() {
+            n = Math.round(Math.random() * (screen.width - 50)) + 1;
+            document.getElementById("noBtn").style.right = n + "px";
+            n = Math.round(Math.random() * (screen.height - 250)) + 1;
+            document.getElementById("noBtn").style.top = n + "px";
+        }
+
+    </script>
+</body>
+
+</html>

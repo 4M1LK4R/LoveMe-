@@ -1,0 +1,34 @@
+#siBtn {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+}
+#noBtn {
+  position: absolute;
+  top: 20vh;
+  right: 10vw;
+}
+body {
+  text-align: center;
+  background-color: #1e1e1e;
+  margin: 0px;
+  /* overflow: hidden; */
+}
+h1 {
+  color: white;
+  font-family: Roboto;
+}
+.btn {
+  border: none;
+  box-shadow: 3px 4px 0px 0px #004688;
+  background-color: #0094da;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 16px 38px;
+  text-decoration: none;
+}
